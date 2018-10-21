@@ -1,0 +1,15 @@
+#include<iostream>
+
+
+using namespace std;
+
+int main () {
+cout<<"Enter a input :" <<endl;
+int x;
+cin>>x;
+cout<<x;
+
+
+
+
+}
