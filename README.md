@@ -1,3 +1,3 @@
 # cpp
 
-cpp basics 
+Learning Cpp  basics w/ java ! 
