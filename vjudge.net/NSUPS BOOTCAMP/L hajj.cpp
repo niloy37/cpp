@@ -9,7 +9,7 @@ int main () {
  while (s != "*"){
 
     getline(cin,s);
-
+  if(s=="*")break;
 
     if(s=="Hajj")
     cout<<"Case "<<i<<": "<<"Hajj-e-Akbar"<<endl;
