@@ -1,0 +1,30 @@
+ /* @author
+    Niloy Rahman 
+    CSE,North South Univeristy*/
+    
+    
+    #include<bits/stdc++.h>
+using namespace std;
+int main() {
+
+int n;
+cin>>n;
+int a[7];
+for(int i=0;i<7;i++){
+    cin>>a[i];
+}
+int pagesread=0;
+int index=0;
+      while(pagesread<n){
+    for(int i=0;i<7;i++){
+        pagesread+=a[i];
+        if(pagesread>=n){
+            index=i+1;
+            break;
+        }
+    }
+      }
+
+cout<<index;
+
+}
