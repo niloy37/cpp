@@ -27,11 +27,23 @@ UnsortedType::UnsortedType(){
  void UnsortedType::MakeEmpty(){
  	//clear the file
  }
-
+//design class ItemType.h
+class ItemType{
+int value;
+	public: 
+	Initialize (int val);
+	print();
+};
+//implementation of ItemType.cpp
+//#include "ItemType.h"
+ItemType::Initialize(int val){
+    value = val;
+}
+//rest goes on
 
 
 //#include "UnsortedType.h"
-
+//#include "ItemType.h"
 int main() {
 	// your code goes here
 	UnsortedType list1;
