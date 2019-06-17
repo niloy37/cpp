@@ -1,5 +1,8 @@
 #include <iostream>
 using namespace std;
+
+//Itemtype must be included
+//#include "ItemType.h"
 class UnsortedType{
 	int length;
 	ItemType info[MAX_ITEMS];
