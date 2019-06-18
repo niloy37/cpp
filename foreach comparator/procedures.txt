@@ -1,0 +1,18 @@
+//pointer , on then end p2 shows undefined behaivour due to the end of array
+for(int& x : s){
+   int* p1 = &x;
+   int* p2 = p1 + 1;
+   if ( *p1 == *p2 ) { ... }
+}
+
+
+
+ // adjacent finder
+ int a[] = { 1, 2, 3, 3, 3, 4, 5 };
+
+for ( int prev = 0; const auto &current : a )
+{
+    if ( prev == current ) std::cout << "Adjacent elements equal to " << prev << '\n';
+
+    prev = current;
+}        
