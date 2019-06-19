@@ -30,6 +30,18 @@ UnsortedType::UnsortedType(){
  void UnsortedType::MakeEmpty(){
  	//clear the file
  }
+void UnsortedType::putItem(ItemType item){
+info[length++] = item;
+}
+void UnsortedType::deleteItem(ItemType item){
+	int location = 0;
+	while((item.comparedTo(info[location])) != EQUAL){
+		location++;
+	}
+	info[location] = info[length-1];
+}
+
+
 //design class ItemType.h
 class ItemType{
 int value;
