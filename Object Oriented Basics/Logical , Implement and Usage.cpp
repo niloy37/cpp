@@ -41,6 +41,9 @@ void UnsortedType::deleteItem(ItemType item){
 	info[location] = info[length-1];
 	length--;
 }
+void UnsortedType::makeEmpty(){
+length = 0;
+}
 
 
 //design class ItemType.h
