@@ -39,6 +39,7 @@ void UnsortedType::deleteItem(ItemType item){
 		location++;
 	}
 	info[location] = info[length-1];
+	length--;
 }
 
 
