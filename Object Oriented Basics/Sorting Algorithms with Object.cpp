@@ -30,11 +30,13 @@ using namespace std;
         cin>>arr[b].id;
         pf << "Value ["<< b <<"] (result) : ";
         cin>>arr[b].result;
+        pf<<" Enter name and cellphone number : ";
+        sf << arr[b].name << arr[b].cellphone;
 
         }
     pf<< "Elements of your unsorted list : [ ";
     for(int c = 0 ; c<= n-1 ; c++){
-        pf<<"("<<arr[c].id<<","<<arr[c].result<<") ";
+        pf<<"("<<arr[c].cellphone<<","<<arr[c].id<<","<<arr[c].result<<","<<arr[c].name<<") ";
 
     }
 
@@ -43,11 +45,10 @@ using namespace std;
 
     void Sort::fixedInput(){
     n=4;
-    arr[0].id =1; arr[0].result = 5.5; arr[0].cellphone = 12345;arr[0].name = "A";
-
-    arr[1].id =2; arr[1].result = 2.1;arr[1].cellphone = 12346;arr[1].name = "B";
-    arr[2].id =3; arr[2].result = 3.7; arr[2].cellphone = 12347;arr[2].name = "C";
-    arr[3].id =4; arr[3].result = 4.2;arr[3].cellphone = 12348;arr[3].name = "D";
+    arr[0].id =1; arr[0].result = 5.5; arr[0].cellphone = 12345; arr[0].name = "A";
+    arr[1].id =2; arr[1].result = 2.1; arr[1].cellphone = 12346; arr[1].name = "B";
+    arr[2].id =3; arr[2].result = 3.7; arr[2].cellphone = 12347; arr[2].name = "C";
+    arr[3].id =4; arr[3].result = 4.2; arr[3].cellphone = 12348; arr[3].name = "D";
     }
 
     void Sort::bubble(){
@@ -62,20 +63,7 @@ using namespace std;
     }
     }
 
-    void Sort::insertion(){
-    for(int i=1;i<n;i++){
-        ItemType temp = arr[i];
-        int j=i-1;
-        while((temp.cellphone<arr[j].cellphone)&& (j>=0)){
-              arr[j+1];
-              j=j-1;
-              }
-              arr[j+1]=temp;
-    }
-    }
-void Sort::selection(){
-for(int i=0;i<n-1;i++){
-    int indexMin = i;
+      int indexMin = i;
     for(int j=i+1; j<n;j++){
         if(arr[j].cellphone < arr[indexMin].cellphone){
             indexMin = j;
@@ -88,7 +76,20 @@ for(int i=0;i<n-1;i++){
     }
 }
 
-}
+}  void Sort::insertion(){
+    for(int i=1;i<n;i++){
+        ItemType temp = arr[i];
+        int j=i-1;
+        while((temp.cellphone<arr[j].cellphone)&& (j>=0)){
+              arr[j+1];
+              j=j-1;
+              }
+              arr[j+1]=temp;
+    }
+    }
+void Sort::selection(){
+for(int i=0;i<n-1;i++){
+
 
 void Sort::display() {
 pf <<"Elements of your sorted list : [";
@@ -101,9 +102,9 @@ pf << "]";
 int main () {
 Sort mSort;
 mSort.fixedInput();
-mSort.bubble();
+//mSort.bubble();
 //mSort.insertion();
-//mSort.selection();
+mSort.selection();
 mSort.display();
 return 0;
 
