@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1561048619 source:c:\users\havoc-pc\documents\codeblocks\template\objects\main.cpp
+	<iostream>
+	"ArithmaticOperations.h"
+
+1561036439 c:\users\havoc-pc\documents\codeblocks\template\objects\arithmaticoperations.h
+
+1561036624 source:c:\users\havoc-pc\documents\codeblocks\template\objects\arithmaticoperations.cpp
+	"ArithmaticOperations.h"
+	<bits/stdc++.h>
+
