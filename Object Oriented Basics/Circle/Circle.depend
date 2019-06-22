@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1561201474 source:c:\users\havoc-pc\documents\codeblocks\template\circle\main.cpp
+	"Circle.h"
+	<iostream>
+
+1561201474 c:\users\havoc-pc\documents\codeblocks\template\circle\circle.h
+
