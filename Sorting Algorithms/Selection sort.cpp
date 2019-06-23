@@ -45,6 +45,7 @@ int main () {
 }
 
 /*
+Output in terminal [CMD Promt]
 Input Array:    [4 6 3 2 1 9 7 ]
 
 Items Swapped :  [4, 1]
