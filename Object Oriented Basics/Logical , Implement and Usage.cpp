@@ -29,6 +29,7 @@ UnsortedType::UnsortedType(){
 }
  void UnsortedType::MakeEmpty(){
  	//clear the file
+	 length = 0;
  }
 void UnsortedType::putItem(ItemType item){
 info[length++] = item;
@@ -41,9 +42,15 @@ void UnsortedType::deleteItem(ItemType item){
 	info[location] = info[length-1];
 	length--;
 }
-void UnsortedType::makeEmpty(){
-length = 0;
-}
+ bool UnsortedType::isFull(){
+if(length == MAX_ITEMS)
+	return true;
+	 else 
+		 return false;
+ }
+
+
+
 
 
 //design class ItemType.h
@@ -52,6 +59,7 @@ int value;
 	public: 
 	Initialize (int val);
 	print();
+	int compareTo(ItemType item);
 };
 //implementation of ItemType.cpp
 //#include "ItemType.h"
