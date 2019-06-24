@@ -72,7 +72,13 @@ found = false;
 }
 
 ItemType UnsortedType::GetNextItem(){
+	return info[++currentPos];
 	
+	
+}
+void UnSortedType::Resetlist() {
+	
+	currentPos = -1;
 }
 
 
