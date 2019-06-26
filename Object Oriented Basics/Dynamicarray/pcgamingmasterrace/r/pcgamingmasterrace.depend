@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1561589530 source:c:\users\lib-606\desktop\pcgamingmasterrace\r\main.cpp
+	<iostream>
+	<cstdio>
+	<string>
+	<cstring>
+	<sstream>
+	<vector>
+	<stack>
+	<queue>
+	<deque>
+	<list>
+	<map>
+	<set>
+	<bitset>
+	<algorithm>
+	<functional>
+	<numeric>
+	<utility>
+	<cmath>
+	<cstdlib>
+	<cctype>
+	<cstdlib>
+	<ctime>
+	<iomanip>
+
