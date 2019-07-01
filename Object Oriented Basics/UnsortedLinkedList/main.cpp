@@ -19,6 +19,10 @@ NodeType *n2;
   NodeType *j ;
   n->i->j = 100;
   
+  new ob j
+  
+  n->j->j = new NodeType
+  
   */
 
 }
