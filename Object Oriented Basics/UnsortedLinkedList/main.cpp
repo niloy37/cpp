@@ -15,5 +15,10 @@ NodeType *n2;
   n->i = 5;
   n->j = new int;
   *(n->j) = 5;
+  /*
+  NodeType *j ;
+  n->i->j = 100;
+  
+  */
 
 }
