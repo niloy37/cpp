@@ -4,7 +4,10 @@
 using namespace std;
 
 UnsortedType::UnsortedType() {
- length = 0;
-  listData = NULL;
-  
+length = 0;
+listData = NULL;
+}
+UnsotedType:: ~UnsortedType();
+void UnsortedType::putItem(ItemType item){
+ NodeType *location = new NodeType;
 }
