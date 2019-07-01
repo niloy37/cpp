@@ -1,8 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 struct NodeType {
-int i;
-int *j;
+ItemType info;
+NodeType *next;
 };
 
 int main () {
