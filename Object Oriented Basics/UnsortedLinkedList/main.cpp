@@ -8,7 +8,8 @@ int j;
 int main () {
 NodeType a;
 NodeType *n;
-n = &a;
-
+n = &a; // static allocation
+NodeType *n2;
+  n2 = new NodeType; //dynamic allocation
 
 }
