@@ -1,0 +1,14 @@
+#include<bits/stdc++.h>
+using namespace std;
+struct NodeType {
+int i;
+int j;
+};
+
+int main () {
+NodeType a;
+NodeType *n;
+n = &a;
+
+
+}
