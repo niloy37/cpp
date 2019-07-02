@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1562093029 source:c:\users\havoc-pc\documents\codeblocks\calculator\main.cpp
+	"Calculator.h"
+	"Calculator.cpp"
+	<bits/stdc++.h>
+
+1562093172 c:\users\havoc-pc\documents\codeblocks\calculator\calculator.h
+
+1562093172 c:\users\havoc-pc\documents\codeblocks\calculator\calculator.cpp
+	"Calculator.h"
+	<bits/stdc++.h>
+
+1562093172 source:c:\users\havoc-pc\documents\codeblocks\calculator\calculator.cpp
+	"Calculator.h"
+	<bits/stdc++.h>
+
