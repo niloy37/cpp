@@ -1,4 +1,3 @@
-//not fully updated
 #include<bits/stdc++.h>
 #define n 7
 using namespace std;
@@ -38,9 +37,19 @@ for(int i=0;i<n-1;i++){
 
 }
 
-void insertionSort(int [] arr){
-
+void insertionSort(int arr []){
+	// Insertion Sort , Complexity O(N*N) Author ~ Havoc , Contribution MMR4 , ECE , NSU
 	
+for(int i=1;i<n;i++){
+	int j = i-1;
+	int temp = arr[i];
+	while(temp < arr[j] && j>=0){
+		arr[j+1] = arr[j];
+		j-=1;
+	}
+	arr[j+1] = temp;
+}
+
 }
 
 
@@ -53,6 +62,12 @@ for(int a : arr){
 cout<<endl<<endl;
 int arr2 [] {2,4,3,1,6,5,7};
 bubbleSort(arr2);
+for(int a: arr2){
+	cout<<a<<" ";
+} 
+cout<<endl<<endl;
+int arr3 [] {1,3,4,2,7,6,5};
+insertionSort(arr3);
 for(int a: arr2){
 	cout<<a<<" ";
 } 
