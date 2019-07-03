@@ -32,7 +32,7 @@ void UnsortedType::deleteItem(ItemType item) {
  }
   templocation = location->next;
   location->next = (location->next)->next;
-  delete tempolocation;
+  delete templocation;
   length--;
  } 
 }
