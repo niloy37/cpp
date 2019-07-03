@@ -1,5 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
+
+
 struct NodeType {
 ItemType info;
 NodeType *next;
@@ -24,5 +26,10 @@ NodeType *n2;
   n->j->j = new NodeType
   
   */
+  
+  UnsortedType list1;
+  ItemType i1 ,i2;
+  list1.putItem(i1);
+  list1.putItem(i2);
 
 }
