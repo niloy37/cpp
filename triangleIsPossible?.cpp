@@ -7,7 +7,7 @@ int main () {
 	cout<<"Enter three sides of the triangle"<<endl;
 	cin>>a>>b>>c;
 	if(a>=1 && b>=0 && c>=0){
-		if(a+b>c && b+c>a && c+a>b) cout<<"Triangle can be constructed"<<endl;
+		if((a+b>c) && (b+c>a) && (c+a>b)) cout<<"Triangle can be constructed"<<endl;
 		else cout<<"Triangle cannot be constructed"<<endl;
 
 	}
