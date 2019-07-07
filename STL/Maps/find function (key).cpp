@@ -22,4 +22,8 @@ for( map<int,string>::iterator it = student.begin() ; it!= student.end() ; it++)
 //instead of auto use , map<int,string>::iterator var_name
 auto it = student.find(6);
 cout<<"Value of 6 is "<<it->second<<endl;
+	
+	//erase 
+	auto it = student.find(3);
+		student.erase(it);
 }
