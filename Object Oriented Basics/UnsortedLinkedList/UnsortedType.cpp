@@ -41,7 +41,7 @@ NodeType *tempptr;
   while(listData != NULL){
   tempptr = listdata;
    listData = listData->next;
-   delete tempptre;
+   delete tempptr;
   }
  length = 0;
 }
