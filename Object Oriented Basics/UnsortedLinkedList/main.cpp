@@ -28,8 +28,12 @@ NodeType *n2;
   */
   
   UnsortedType list1;
-  ItemType i1 ,i2;
+  ItemType i1 ,i2,i3;
   list1.putItem(i1);
   list1.putItem(i2);
+  list1.putItem(i3);
+  list1.deleteItem(i3);
+  list1.makeEmpty();
+  
 
 }
