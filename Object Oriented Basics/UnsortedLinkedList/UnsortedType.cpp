@@ -36,3 +36,14 @@ void UnsortedType::deleteItem(ItemType item) {
   length--;
  } 
 }
+void UnsortedType::makeEmpty(){
+NodeType *tempptr;
+  while(listData != NULL){
+  tempptr = listdata;
+   listData = listData->next;
+   delete tempptre;
+  }
+ length = 0;
+}
+
+
