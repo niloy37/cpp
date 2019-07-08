@@ -13,7 +13,7 @@ class UnsortedType{
 	void MakeEmpty();
 	bool IsFull();
 	int GetLength();
-	ItempType GetItem();
+	ItemType GetItem();
 	void putItem(ItemType item);
 	void deleteItem(ItemType item);
 	void ResetList();
