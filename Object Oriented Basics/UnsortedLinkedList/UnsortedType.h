@@ -11,5 +11,6 @@ void putItem(ItemType item);
 void DeleteItem(ItemType item);
 void makeEmpty();
 bool isFull();
+int getLength();
 
 }
