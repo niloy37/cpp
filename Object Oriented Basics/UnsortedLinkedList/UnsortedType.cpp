@@ -56,8 +56,10 @@ bool UnsortedType::isFull(){
  catch (bad_allocation exception){
   return true;
  }
+}
 
- 
+int UnsortedType::getLength() {
+ return length;
 }
 
 
