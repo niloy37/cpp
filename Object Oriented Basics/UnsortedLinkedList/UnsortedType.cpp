@@ -46,4 +46,18 @@ NodeType *tempptr;
  length = 0;
 }
 
+bool UnsortedType::isFull(){
+ 
+ try{
+ NodeType *location = new NodeType;
+ delete location;
+ return false;
+ }
+ catch (bad_allocation exception){
+  return true;
+ }
+
+ 
+}
+
 
