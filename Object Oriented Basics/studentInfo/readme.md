@@ -3,5 +3,6 @@
 
 
 ![](https://img.shields.io/badge/Imgur-JPEG-red.svg)
+![](https://img.shields.io/badge/Compile%20Time-Multiple%20definitions%2FFrist%20defined%20here-ff69b4.svg)
 https://imgur.com/a/V9p1oVd 
 
