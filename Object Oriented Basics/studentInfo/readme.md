@@ -2,6 +2,6 @@
 
 
 
-![](https://imgur.com/a/V9p1oVd)
+![](https://img.shields.io/badge/Imgur-JPEG-red.svg)
 https://imgur.com/a/V9p1oVd 
 
