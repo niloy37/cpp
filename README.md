@@ -1,4 +1,4 @@
-# cpp ![](https://img.shields.io/badge/CPP-BASICS-success.svg) 
+# cpp ![](https://img.shields.io/badge/CPP-BASICS-success.svg) ![](https://img.shields.io/badge/CPP-OBJECT%20ORIENTED%20PROGRAMMING-9cf.svg)
 Learning Cpp  basics , Data Structures and Algorithms.Refurbishing the object oriented basics with cpp syntax.
 img - Cin and Cout.cpp - https://imgur.com/a/UUywiGb
 img - triangleIsPossible?.cpp - https://imgur.com/a/Bywybjg
