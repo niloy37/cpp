@@ -18,4 +18,15 @@ info[index] = info[index-1];
 info[location] = item;
 length++;
 }
+       
+       void SortedType::deleteItem(ItemType item){
+        int location =0;
+         while(item.comparedTo(info[location]) != EQUAL){
+          location++; 
+         }
+         for(int index= location+1; index<length;index++){
+         info[index-1] = info[index];}
+       length--;  
+         }
+       
 
