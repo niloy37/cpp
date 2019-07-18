@@ -7,13 +7,13 @@ int first = 0 , last = 5;
 bool found = false;
 bool moreToSearch = first < last; 
 while(moreToSearch && !found){
-	mid = (first+last) /2;
+	mid = (first+last) /2;//mid value
 	if(key < a[mid] ){
 		first  = mid+1;
 		moreToSearch = first < last;
 	}
 	else if(key > a[mid]){
-		last = mid-1;
+		last = mid-1; //shifting last
 		moreToSearch = first < last;
 	}
 	else {
