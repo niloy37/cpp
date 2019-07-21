@@ -20,7 +20,7 @@ int main () {
    cout<<endl;
    // memset works byte by byte
 
-   memset(arr,5,sizeof(arr));
+   memset(arr,5,sizeof(arr)); //wouldn't work
    for(int a : arr){
     cout<<a<<" ";
    }
