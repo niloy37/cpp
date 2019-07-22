@@ -23,3 +23,16 @@ void StackType::pop(){
     top--;
 }
 
+ItemType StackType::top(){
+  if(isEmpty()) //return and show message
+ 
+    return items[top];
+}
+
+bool StackType::isFull(){
+  return (top == MAXSIZE-1);
+}
+bool StackType::isEmpty(){
+ return (top == -1); 
+}
+
