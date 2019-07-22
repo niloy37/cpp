@@ -1,4 +1,6 @@
 #include "StackType.h"
+
+
 StackType::StackType() {
 top=-1;
 }
@@ -9,5 +11,15 @@ if(isFull()){
 }
 else
 items[++top] = item;
+}
+
+
+void StackType::pop(){
+  if(isEmpty()){
+   //show message and return 
+  }
+  
+  else 
+    top--;
 }
 
