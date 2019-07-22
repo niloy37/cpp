@@ -1,5 +1,5 @@
 class SortedType {
-ItemType info[MAX_ITEMS]; // dynamic declaration - ItemTyoe *info = new ItemType[MAX_SIZE]
+ItemType info[MAX_ITEMS]; // dynamic declaration - ItemType *info = new ItemType[MAX_SIZE]
 int length;
 int currentPos;
 
