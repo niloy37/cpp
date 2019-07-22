@@ -29,4 +29,14 @@ length++;
        length--;  
          }
        
-
+/*
+ifFull() {
+ItemType *newInfo = new ItemType[MAX_ITEMS*2]
+for(int i=0;i<length;i++){
+newInfo[i] = info[i];
+}
+delete [] info;
+info = newInfo;
+MAX_ITEMS*=2;
+}
+*/
