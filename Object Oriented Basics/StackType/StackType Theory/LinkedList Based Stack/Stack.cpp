@@ -17,5 +17,8 @@ topPtr = location;
 }
 
 void Stack::pop() {
-
+NodeType *location ;
+  location = topPtr;
+  topPtr = topPtr->next;
+  delete location;
 }
