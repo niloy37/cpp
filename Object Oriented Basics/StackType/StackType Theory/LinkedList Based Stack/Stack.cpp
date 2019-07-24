@@ -53,4 +53,16 @@ NodeType *location ;
     }
   }
   
+  Stack::~Stack(){
+  //makeEmpty function of Linked list (sorted/unsorted)
+    NodeType *tempPtr;
+    
+    while(topPtr != NULL){
+     tempPtr = topPtr;
+      topPtr = topPtr->next;
+      delete tempPtr;
+    }
+    
+  }
+  
   
