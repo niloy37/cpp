@@ -38,4 +38,19 @@ NodeType *location ;
    else return topPtr->info; 
   }
   
+  bool Stack::isEmpty(){
+    return (topPtr == NULL);
+    }
+  
+  bool Stack::isFull(){
+   try{
+     NodeType *location = new NodeType;
+     delete location;
+     return false;
+   }
+    catch(std::bad_alloc exception){
+     return true; 
+    }
+  }
+  
   
