@@ -4,4 +4,4 @@ NodeType* topPtr;
 
 //same methodsas array
 
-}
+};
