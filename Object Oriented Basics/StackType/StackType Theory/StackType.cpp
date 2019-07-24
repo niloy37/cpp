@@ -36,3 +36,12 @@ bool StackType::isEmpty(){
  return (top == -1); 
 }
 
+
+/*
+StackType::~StackType(){
+delete [] items;
+}
+
+
+*/
+
