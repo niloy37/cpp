@@ -31,3 +31,11 @@ NodeType *location ;
   topPtr = topPtr->next;
   delete location;
   }
+  
+  ItemType Stack::top(){
+   if(isEmpty())
+     throw EmptyStack();
+   else return topPtr->info; 
+  }
+  
+  
