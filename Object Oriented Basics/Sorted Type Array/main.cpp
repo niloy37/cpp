@@ -1,4 +1,4 @@
-#include "Sorted.h"
+#include "Sorted.h" //lab
 #include "ItemType.h"
 using namespace std;
 int main () {
