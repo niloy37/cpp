@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Havoc-PC/CLionProjects/Stack/StackType.cpp
+StackType.h
+C:/Users/Havoc-PC/CLionProjects/Stack/StackType.h
+
+C:/Users/Havoc-PC/CLionProjects/Stack/StackType.h
+
+C:/Users/Havoc-PC/CLionProjects/Stack/main.cpp
+iostream
+-
+StackType.h
+C:/Users/Havoc-PC/CLionProjects/Stack/StackType.h
+StackType.cpp
+C:/Users/Havoc-PC/CLionProjects/Stack/StackType.cpp
+
