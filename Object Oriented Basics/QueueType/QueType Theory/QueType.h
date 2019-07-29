@@ -19,6 +19,8 @@ class QueType {
     items = new ItemType[maxQue];
   }
   ~QueType();
+ void Enqueue(ItemType item);
+ void Dequeue(ItemType item); 
   
   
   
