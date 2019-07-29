@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Havoc-PC/CLionProjects/untitled1/QueType.cpp
+QueType.h
+C:/Users/Havoc-PC/CLionProjects/untitled1/QueType.h
+iostream
+-
+QueType.h
+C:/Users/Havoc-PC/CLionProjects/untitled1/QueType.h
+
+C:/Users/Havoc-PC/CLionProjects/untitled1/QueType.h
+
+C:/Users/Havoc-PC/CLionProjects/untitled1/main.cpp
+bits/stdc++.h
+-
+
