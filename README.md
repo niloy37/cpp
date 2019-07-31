@@ -6,7 +6,7 @@ img - triangleIsPossible?.cpp - https://imgur.com/a/Bywybjg
 # My Facebook Profile - 
 https://www.facebook.com/havoccboi
 # Repository creation date -
-Summer '19
+Summer '19 / Semester 192 , NSU
 # Mass Contribution from - MMR4 , CSE 225 Data Structures and Algorithm
 CSE225 , Major contents from this repository is from the Data Structures Lab & Theory Class.
 CLass Codes and Lab Codes. Other contents are from my personal practice before & after attending the course.
