@@ -9,7 +9,7 @@ void DFS(int arr[5][5], int x,int y){
     DFS(arr,x,y-1);
     DFS(arr,x,y+1);
 }
-
+//DFS IMPLEMENTATION
 
 
 int countIslands(int arr[5][5]){
