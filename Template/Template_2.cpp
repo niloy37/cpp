@@ -1,6 +1,6 @@
 /*
 * Note: This template uses some c++11 functions , so you have to compile it with c++11 flag.
-*       Example:-   $ g++ -std=c++11 c++Template.cpp
+*       Example:-   $ g++ -std=c++11 c++Template.cpp temp
 */
  
 /********   All Required Header Files ********/
