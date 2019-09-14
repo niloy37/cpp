@@ -21,3 +21,4 @@ cout<<"The average is "<<average<<endl;
 
 return 0;
 }
+//wwwwww
