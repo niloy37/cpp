@@ -5,7 +5,7 @@ int main () {
 	cin>>n;
 
 	if(n<0) cout<<n*(-1);
-	else cout<<n;
+	else cout<<n;//c not c
 
 
 	return 0;
