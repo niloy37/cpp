@@ -19,7 +19,7 @@ typedef long double ld;
 const int INF = 0x3f3f3f3f, MOD = 1e9 + 7;
 ll power(ll a, ll n) {ll p = 1;while (n > 0) {if(n%2) {p = p * a;} n >>= 1; a *= a;} return p;}
 ll power(ll a, ll n, ll mod) {ll p = 1;while (n > 0) {if(n%2) {p = p * a; p %= mod;} n >>= 1; a *= a; a %= mod;} return p % mod;}
-
+//hoinai
 int main () {
 
 
