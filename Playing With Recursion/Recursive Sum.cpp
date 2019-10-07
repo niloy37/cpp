@@ -1,4 +1,4 @@
-//Sum upto N numbers reccursively 
+ki ki//Sum upto N numbers reccursively 
 
 
 #include<bits/stdc++.h>
@@ -15,3 +15,4 @@ using namespace std;
  	cin>>n;
  	cout<<recSum(n)<<endl;
  }
+//updt
