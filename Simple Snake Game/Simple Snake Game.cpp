@@ -21,7 +21,7 @@ void Setup()
 	score = 0;
 }
 void Draw()
-{
+{ //drawing the board
 	system("cls"); //system("clear");
 	for (int i = 0; i < width+2; i++)
 		cout << "#";
