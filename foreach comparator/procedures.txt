@@ -16,3 +16,4 @@ for ( int prev = 0; const auto &current : a )
 
     prev = current;
 }        
+//xoxo
