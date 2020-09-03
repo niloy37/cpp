@@ -40,7 +40,7 @@ public:
                 v2=var;
                 found_v2 = true;
             }
-
+//k
             if(found_v1 && found v2)
                 break;
         }
